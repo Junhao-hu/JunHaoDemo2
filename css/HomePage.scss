@@ -1,0 +1,223 @@
+//banner部分
+.banner-box{
+    width: 100%;
+    position: relative;
+    img{
+        width: 100%;
+    }
+}
+.banner-ul{
+    li{
+        position: absolute;
+        top:0;
+        left: 0;
+    }
+}
+.banner-point{
+    display: inline-block;
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    margin-left:-65px ;
+    z-index: 4;
+    li{
+        float: left;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 0 15px;
+        background: #ccc;
+    }
+}
+.active{
+    background: #fff !important;
+}
+//banner部分结束
+
+
+//主要内容部分
+.concent-box{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+//第一部分
+.glasses-01{
+    width: 100%;
+}
+.glasses-01-left{
+    width: 53%;
+    img{
+        width: 100%;
+        margin: 10px 0;
+    }
+    img:hover{
+        transform: translateY(-10px);
+        transition: .3s;
+        cursor: url(../img/mouse.ico),auto;
+    }
+}
+.glasses-01-right{
+    width: 46%;
+    img{
+        width: 100%;
+        height: 97%;
+        margin: 10px 0;
+    }
+    img:hover{
+        transform: translateY(-10px);
+        transition: .3s;
+    }
+}
+
+//第二部分
+.glasses-02{
+    padding-top: 50px;
+    width: 100%;
+    position: relative;
+    p{
+        text-align: center;
+    }
+    img{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        width: 21%;
+    }
+    div{
+        position: absolute;
+        width: 18px;
+        height: 30px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.img-margin{
+    margin-left: 18%;
+}
+.gla-02til{
+    font-family: Didot;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+}
+.gla-02txt{
+    font-size: 16px;
+    color: #333;
+}
+
+//第三部分
+.gla-3{
+    perspective: 1000px;
+}
+.glasses-03{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    background-size:100% 100%;
+    border-radius: 10px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+    img{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        &:hover{
+        cursor: url(../img/mouse.ico),auto;
+        }
+    }
+}
+.a{
+   -webkit-transform: translateZ(40px);
+}
+//第四部分
+.glasses-04{
+    width: 100%;
+}
+.gla-04-left{
+    width: 59%;
+    img{
+        width: 100%;
+        &:hover{
+        cursor: url(../img/mouse.ico),auto;
+        transform: translateY(-10px);
+        transition: .3s;
+    }
+    }
+}
+.gla-04-right{
+    width: 39%;
+    img{
+        width: 100%;
+        &:hover{
+        cursor: url(../img/mouse.ico),auto;
+        transform: translateY(-10px);
+        transition: .3s;
+    }
+    }
+}
+//第五部分
+.glasses-05{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+.gla-05-left{
+    width: 39%;
+    img{
+        width: 100%;
+        &:hover{
+        cursor: url(../img/mouse.ico),auto;
+        transform: translateY(-10px);
+        transition: .3s;
+    }
+    }
+}
+.gla-05-right{
+    width: 59%;
+    img{
+        width: 100%;
+        &:hover{
+        cursor: url(../img/mouse.ico),auto;
+        transform: translateY(-10px);
+        transition: .3s;
+    }
+    }
+}
+//主要内容部分结束
+
+.imgtran-01:hover{
+    box-shadow: 0 10px 10px #ecd7d7;
+}
+.imgtran-02:hover,.imgtran-03:hover{
+    box-shadow: 0 10px 10px #c1c1c1;
+}
+.imgtran-04:hover{
+    transform: translateY(-10px);
+    transition: .3s;
+    box-shadow: 0 10px 10px #c1c1c1;
+}
+.imgtran-05:hover{
+    box-shadow: 0 0 10px #cee1e2;
+}
+.imgtran-06:hover{
+    box-shadow: 0 10px 10px #e6d6ce;
+}
+.imgtran-07:hover{
+    box-shadow: 0 10px 10px #e6d6ce;
+}
+.imgtran-08:hover{
+    box-shadow: 0 10px 10px #fabeb3;
+}
+.imgtran-09:hover{
+    box-shadow: 0 10px 10px #c1c1c1;
+}

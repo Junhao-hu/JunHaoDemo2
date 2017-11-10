@@ -1,0 +1,120 @@
+.banner-box{
+	width: 100%;
+	img{
+		width: 100%;
+	}
+}
+.link-box{
+	margin-left: 18.75%;
+	margin-top: 35px;
+	margin-bottom: 185px;
+	a{
+		font-size: 12px;
+		color: #666;
+	}
+}
+
+/*定制部分*/
+.optical-box{
+    padding-top: 50px;
+    width: 62.5%;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 220px;
+    p{
+        text-align: center;
+    }
+    img{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        width: 21%;
+    }
+    div{
+        width: 18px;
+        height: 30px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.img-margin{
+    margin-left: 18%;
+}
+.opt-til{
+    font-family: Didot;
+    font-size: 25px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.opt-txt{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+.opt-txt-02{
+	font-size: 14px;
+	font-weight: lighter;
+	color: #333;
+	margin-top: 0;
+	margin-bottom: 83px;
+}
+/*定制部分结束*/
+
+/*第二个banner*/
+.banner-box-02{
+	width: 100%;
+	margin-bottom: 216px;
+	img{
+		width: 100%;
+	}
+}
+/*第二个banner结束*/
+
+/*设计师推荐部分*/
+.optical-box-02{
+    padding-top: 50px;
+    width: 62.5%;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 339px;
+    p{
+        text-align: center;
+    }
+    img{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        width: 21%;
+    }
+    div{
+        width: 18px;
+        height: 30px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.opt-til-02{
+    font-family: Didot;
+    font-size: 25px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+.opt-txt-02{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+.imgtan-05:hover{
+	transform: translateY(-10px);
+	transition: .3s;
+	box-shadow: 0 10px 10px #c1c1c1;
+}
+/*设计师推荐部分结束*/

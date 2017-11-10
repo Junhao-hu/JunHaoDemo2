@@ -1,0 +1,133 @@
+@charset "UTF-8";
+.concent-box {
+  width: 62.5%;
+  margin: 0 auto;
+}
+
+.link-box {
+  font-size: 12px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.link-box a {
+  color: #333;
+}
+
+.banner-box {
+  width: 100%;
+  position: relative;
+  margin-bottom: 164px;
+}
+.banner-box img {
+  cursor: pointer;
+}
+
+.video {
+  width: 100%;
+}
+
+.play {
+  position: absolute;
+  top: 50%;
+  margin-top: -55px;
+  left: 50%;
+  margin-left: -55px;
+}
+
+.technology p {
+  text-align: center;
+  color: #666;
+}
+
+.tec-til {
+  font-size: 38px;
+  font-family: Didot;
+  margin: 0;
+}
+
+.tec-txt {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 10px;
+  margin-bottom: 99px;
+}
+
+/*图片部分*/
+.tec-box-left {
+  width: 49.1%;
+  margin-bottom: 20px;
+}
+.tec-box-left img {
+  width: 100%;
+}
+
+.tec-box-right {
+  width: 49.1%;
+  margin-bottom: 20px;
+}
+.tec-box-right img {
+  width: 100%;
+}
+
+.tec-til-01 {
+  margin-top: 65px;
+  margin-bottom: 27px;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #333;
+}
+
+.tec-txt-01 {
+  font-size: 12px;
+  font-weight: lighter;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 19px;
+}
+
+.tec-til-02 {
+  margin-top: 48px;
+  margin-bottom: 26px;
+  font-size: 16px;
+  color: #333;
+  font-weight: lighter;
+}
+
+.tec-txt-02 {
+  margin-top: 0;
+  margin-bottom: 19px;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #666;
+}
+
+/*第三个bannner*/
+.banner-box-03 {
+  width: 100%;
+  margin-bottom: 79px;
+}
+.banner-box-03 img {
+  width: 100%;
+}
+
+.tec-box-02 {
+  margin-bottom: 453px;
+}
+.tec-box-02 p {
+  text-align: center;
+}
+
+.tec-til-03 {
+  font-size: 16px;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+
+.tec-txt-03 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #666;
+}

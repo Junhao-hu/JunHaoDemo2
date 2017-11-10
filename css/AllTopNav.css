@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*通用样式*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei";
+  min-width: 1000px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cl {
+  display: block;
+  overflow: hidden;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+/*正式部分*/
+/*导航栏顶部四个图标部分*/
+header {
+  height: 170px;
+  border-bottom: solid 1px #c8c8c8;
+}
+
+.head-login {
+  width: 100%;
+  height: 20px;
+  color: #666;
+  padding-top: 2px;
+}
+.head-login img {
+  width: 18px;
+  height: 18px;
+}
+
+.head-login-left {
+  margin-left: 30px;
+}
+
+.head-login-right {
+  margin-right: 30px;
+}
+.head-login-right a {
+  color: #666;
+}
+.head-login-right a:hover {
+  color: #333;
+}
+
+/*导航栏顶部四个图标部分结束*/
+/*logo部分*/
+.head-logo {
+  width: 80px;
+  height: 82px;
+  margin: 0 auto;
+}
+.head-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+/*logo部分结束*/
+/*顶部导航栏*/
+.head-nav {
+  width: 420px;
+  height: 45px;
+  margin: 0 auto;
+}
+.head-nav ul {
+  margin-top: 5px;
+}
+.head-nav ul li {
+  float: left;
+  height: 45px;
+  margin: 18px 25px 0 25px;
+}
+
+.head-nav ul a {
+  display: inline-block;
+  height: 40px;
+  color: #333;
+  font-size: 16px;
+}
+.head-nav ul a:hover {
+  color: #000;
+}
+
+.nav-active {
+  color: #000;
+  border-bottom: solid 2px #000;
+}
+
+.nav-login {
+  margin-right: 15px;
+}
+
+/*顶部导航栏结束*/

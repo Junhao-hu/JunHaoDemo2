@@ -1,0 +1,212 @@
+.concent-box{
+	width: 62.5%;
+	margin: 0 auto;
+}
+.link-box{
+	font-family: light;
+	font-size: 12px;
+	margin-left: 5.1%;
+	a{
+		color: #666;
+	}
+}
+/*详细部分*/
+.detail-box{
+	width: 83.3%;
+	margin: 0 auto;
+	margin-top: 135px;
+}
+.det-left-box{
+	width: 70%;
+	position: relative;
+	img{
+		width: 92%;
+		padding: 0 4%;
+	}
+	span{
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		border-radius:50% ;
+		border: solid 1px #666;
+		margin-top: 50px;
+	}
+}
+.span-box{
+	width: 40px;
+	margin: 0 auto;
+	position: relative;
+	bottom:0
+}
+.up,.dowm{
+	position: absolute;
+	width: 30px;
+	height: 50px;
+	top: 35%;
+	z-index: 3;
+	cursor: pointer;
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+.up{
+	left: 0;
+}
+.dowm{
+	right: 0;
+}
+
+.det-right-box{
+	width: 27%;
+	p{
+		margin: 0;
+		padding: 0;
+		color: #333;
+	}
+}
+.det-box-til{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 9px !important;
+}
+.det-box-txt{
+	font-size: 14px;
+	font-family: Light;
+	margin-bottom: 27px !important;
+}
+.active{
+	background: #666;
+}
+
+.color-chose{
+	span{
+		display: inline-block;
+		width: 30%;
+		text-align: center;
+		img{
+			width: 90%;
+			margin-top: 10%;
+		}
+	}
+}
+.color-active{
+	background: url(../img/details-img/choose.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+/*详细第二部分*/
+.detail-box-02{
+	width: 83.3%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.det-box-02{
+	width: 100%;
+}
+.det-02-left{
+	width: 70%;
+	img{
+		width: 100%;
+	}
+}
+.det-02-right{
+	width: 27%;
+	img{
+		width: 100%;
+	}
+}
+.det-til-02{
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 13px;
+}
+.det-txt-02{
+	font-family: Didot,sans-serif;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 56px;
+}
+
+.detail-ul{
+  margin:0;
+  padding:0;
+  position: relative;
+  li{
+    font-size: 14px;
+    color:#333;
+    margin-bottom: 20px;
+    position: relative;
+    &:after{
+      content:"";
+      position: absolute;
+      top:3px;
+      right:0;
+      width:16px;
+      height:9px;
+      background: url("../img/details-img/arrow up.png")no-repeat center;
+      background-size: contain;
+    }
+  }
+  .num-box:after{
+    background: url("../img/details-img/arrow down.png")no-repeat center;
+    background-size: contain;
+  }
+  .information{
+    position: absolute;
+    top: 100px;
+    left: 12px;
+    width: 100%;
+    img{
+      width:90%;
+    }
+  }
+}
+/*详细第二部分结束*/
+/*详细部分结束*/
+
+
+
+/*猜你喜欢部分*/
+.youlike-box{
+	width: 100%;
+	margin-top: 150px;
+	position: relative;
+	margin-bottom: 247px;
+    p{
+        text-align: center;
+    }
+    img{
+        margin-bottom: 16px;
+        margin-top: 16px;
+        width: 21%;
+    }
+    div{
+        width: 30px;
+        height: 50px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.img-margin{
+    margin-left: 18%;
+}
+.youlike-til{
+    font-family: Didot;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+}
+.youlike-txt{
+    font-size: 16px;
+    font-weight: light;
+    color: #333;
+}
+.imgtran-01:hover{
+	transform: translateY(-10px);
+	transition: .3s;
+	box-shadow: 0 10px 10px #c1c1c1;
+}
+/*猜你喜欢部分*/

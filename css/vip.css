@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.vip-box {
+  width: 62.5%;
+  margin: 0 auto;
+}
+
+.link-box {
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 22px;
+}
+.link-box a {
+  color: #333;
+}
+
+/*上半部分*/
+.vip-box-top {
+  width: 100%;
+}
+
+.vipbox-top-left {
+  width: 49%;
+  background: #ebebeb;
+  cursor: url(../img/mouse.ico), auto;
+}
+.vipbox-top-left:hover {
+  transform: translateY(-10px);
+  transition: .3s;
+  box-shadow: 0 10px 10px #c1c1c1;
+}
+.vipbox-top-left p {
+  text-align: center;
+}
+
+.vipbox-top-right {
+  width: 49%;
+  background: #ebebeb;
+  cursor: url(../img/mouse.ico), auto;
+}
+.vipbox-top-right:hover {
+  transform: translateY(-10px);
+  transition: .3s;
+  box-shadow: 0 10px 10px #c1c1c1;
+}
+.vipbox-top-right p {
+  text-align: center;
+}
+
+/*下半部分*/
+.vip-box-bottom {
+  width: 100%;
+}
+
+.vipbox-bot {
+  background: #ebebeb;
+  margin-top: 10px;
+  width: 32%;
+  cursor: url(../img/mouse.ico), auto;
+}
+.vipbox-bot:hover {
+  transform: translateY(-10px);
+  transition: .3s;
+  box-shadow: 0 10px 10px #c1c1c1;
+}
+.vipbox-bot p {
+  text-align: center;
+}
+
+.vipbox-bot-02 {
+  margin-left: 2%;
+}
+
+.vip-til {
+  font-size: 26px;
+  margin-bottom: 0;
+  margin-top: 20%;
+}
+.vip-til a {
+  color: #333;
+}
+
+.vip-txt {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+footer {
+  margin-top: 175px;
+}

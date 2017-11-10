@@ -1,0 +1,121 @@
+@charset "UTF-8";
+.banner-box {
+  width: 100%;
+}
+.banner-box img {
+  width: 100%;
+}
+
+/*四个图的部分*/
+.img-box-01 {
+  width: 62.5%;
+  margin: 0 auto;
+}
+.img-box-01 img:hover {
+  cursor: url(../img/mouse.ico), auto;
+  transform: translateY(-10px);
+  transition: .3s;
+}
+
+.link-box {
+  font-size: 12px;
+  margin: 35px 7px 35px 0;
+}
+.link-box a {
+  color: #666;
+}
+
+.imgbox-01-left {
+  width: 55.8%;
+}
+.imgbox-01-left img {
+  width: 100%;
+}
+
+.imgbox-01-right {
+  width: 40.8%;
+}
+.imgbox-01-right img {
+  width: 100%;
+}
+
+.img-box-02 {
+  width: 62.5%;
+  margin: 40px auto;
+}
+.img-box-02 img:hover {
+  cursor: url(../img/mouse.ico), auto;
+  transform: translateY(-10px);
+  transition: .3s;
+}
+
+.imgbox-02-left {
+  width: 40.8%;
+}
+.imgbox-02-left img {
+  width: 100%;
+}
+
+.imgbox-02-right {
+  width: 55.8%;
+}
+.imgbox-02-right img {
+  width: 100%;
+}
+
+/*四个图的部分结束*/
+/*特别推荐部分*/
+.mostwanted {
+  padding-top: 50px;
+  width: 62.5%;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 320px;
+}
+.mostwanted p {
+  text-align: center;
+}
+.mostwanted img {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 21%;
+}
+.mostwanted div {
+  width: 18px;
+  height: 30px;
+}
+.mostwanted div img {
+  width: 100%;
+  height: 100%;
+}
+
+.img-margin {
+  margin-left: 18%;
+}
+
+.most-til {
+  font-family: Didot;
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+}
+
+.most-txt {
+  font-size: 16px;
+  color: #333;
+}
+
+/*特别推荐部分结束*/
+.imgtan-01:hover {
+  box-shadow: 0 10px 10px #cee1e2;
+}
+
+.imgtan-02:hover, .imgtan-03:hover, .imgtan-04:hover {
+  box-shadow: 0 10px 10px #c1c1c1;
+}
+
+.imgtan-05:hover {
+  transform: translateY(-10px);
+  transition: .3s;
+  box-shadow: 0 10px 10px #c1c1c1;
+}
